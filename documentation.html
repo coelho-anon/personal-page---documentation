@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link rel="stylesheet" href="header.css">
+	<link rel="stylesheet" href="menu.css">
+	<link rel="stylesheet" href="banner_header.css">
+	<link rel="stylesheet" href="introduction_section.css">
+
+	<style type="text/css">
+		body{
+			background-image: linear-gradient(141deg, #1270bf 0%, #1fc8db 51%, #2cb5e8 75%);
+		}
+	</style>
+</head>
+<body>
+
+<!--Hey! This is the original version
+of Simple CSS Waves-->
+
+<div class="header">
+
+  <!--Content before waves-->
+  <div class="header_content">
+<!--     <ul class="ul_menu">
+    	<li class="li_menu">
+    		<button class="btn_menu">Introduction</button>
+    	</li>
+
+    	<li class="li_menu">
+    		<button class="btn_menu">HTML</button>
+    	</li>
+
+    	<li class="li_menu">
+    		<button class="btn_menu">CSS</button>
+    	</li>
+
+    	<li class="li_menu">
+    		<button class="btn_menu">JavaScript</button>
+    	</li>
+    </ul> -->
+
+    <div id="banner_header">
+    	<img src="Images/screen1.png" id="desktop_banner">
+    	<img src="Images/tela2.png" id="desktop_banner2">
+    	<img src="Images/tela3.png" id="desktop_banner3">
+
+	    <img src="Images/screen2.png" id="mobile_banner">
+	    <img src="Images/screen3.png" id="mobile_banner2">
+	    <img src="Images/screen4.png" id="mobile_banner3">
+
+    	<div id="text_banner" class="divs_banner">
+    		<h1 id="banner_title">One Page Documentation.</h1>
+    		<h3 id="banner_description">Full responsive template</h3>
+    	</div>
+    </div>
+  </div>
+
+  <!--Waves Container-->
+  <div>
+    <svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+      <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+      </defs>
+      <g class="parallax">
+        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+        <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+      </g>
+    </svg>
+  </div>
+  <!--Waves end-->
+
+</div>
+<!--Header ends-->
+
+<div id="Introduction_section">
+	<div id="Introduction_section_content">
+		<div class="Introduction_card">
+			<img src="Images/icon1.png" class="tecnologies_img">
+		</div>
+
+		<div class="Introduction_card">
+			<h1 class="tecnologies_title">Everything Got Your Place... in folders and files</h1>
+		</div>
+
+		<div class="div_introduction_text">
+			<h3>
+				<h2>Frases estranhas nos documentos</h2>
+				Inicialmente, é necessario dizer que minha lingua nativa não é inglês, então é possivel que algumas frases pareçam estranhas, pois passaram pela tradução do google tradutor, que por sua vez, não é perfeito.
+			</h3>
+			<br>
+			<h3>
+				<h2>Pode copiar e usar como quiser o template da documentação</h2>
+				O segundo ponto é que, apesar de essa documentação estar com um bom visual, eu não à fiz para usar como template, ela tem como objetivo unicamente orientar você sobre como utilizar e alterar partes do código do template vendido e onde está cada coisa. Caso deseje usar o template dessa documentação para outra finalidade, sinta-se a vontade, ele é totalmente seu, mas como ele não foi feito para isso, eu não tive o cuidade de organizar os codigos e deixar totalmente legiveis para terceiros, e apesar de eu não ter usado tecnicas de minificação do arquivo nessa documentação, ainda é um pouco ruim de ler o código, então se achar que vale a pena copiar, pode fazer sem problemas.
+			</h3>
+
+			<br>
+			<h3>
+				<h2>Bugs do navegador</h2>
+				Podem ocorrer bugs quando a resolução da tela é modificada abruptamente, não estilizando da forma determinada correta, entretanto, esse bug é algo dos navegadores, mas de qualquer forma, o usuario dificilmente muda o tamanho de tela do dispositivo costantemente, então mesmo que o bug ocorra, serão poucos os afetados, para resolver o problema é só reiniciar a pagina após a mudança de resolução e tudo volta ao normal.
+			</h3>
+
+			<br>
+			<h3>
+				<h2>Sobre usar FrameWorks</h2>
+				O template não foi feito com bootstrap e nem foi pensado caso alguém queira usar qualquer framework que seja pra modificar o template, ou seja, caso você deseje usar algum framework, é interessante que você incule ele ao template e logo em seguida veja se não ocorreu nenhum conflito entra classes que possam bagunçar o template. Em todo caso, foi evitado ao maximo usar classes do Bootstrap, para que pelo menos ele possa ser usado, entretanto, não asseguro que não usei nenhum classe do bootstrap.
+			</h3>
+		</div>
+	</div>
+</div>
+
+<div id="html_section">
+	<div id="html_section_content">
+
+		<div class="Introduction_card">
+			<img src="Images/icon1.png" class="tecnologies_img">
+		</div>
+
+		<div class="Introduction_card">
+			<h1 class="tecnologies_title" style="border-left: 15px solid #ca3f26;">Padões para ler o código</h1>
+		</div>
+
+		<div class="div_introduction_text">
+			<h3> Todo o documento HTML segue boas práticas de identação, então foi atribuido os documentos css antes de qualquer coisa, em seguida o conteudo do template e por fim os documentos de script. Todo o codigo está identado de acordo com boas práticas, seguindo um padrão de arvore da identação.</h3>
+		</div>
+
+		<div class="images_example_left">
+			<img src="images/html.png" class="images_example">
+		</div>
+
+		<div class="div_introduction_text">
+			<h3>Foi usado um padrão para nomear as seções, então se você reparar, todas as seções (com excessão da seção "about") serão "Nome da seção" seguidos de "-section"</h3>
+		</div>
+
+		<br>
+
+		<div class="images_example_left">
+			<img src="images/html2.png" class="images_example">
+		</div>
+
+		<div class="div_introduction_text">
+			<h3>Se você usa um editor como o "sublime text", você pode se orientar também onde começa e termina as seções observando onde são os pontos em que a identação fica mais a esquerda.</h3>
+		</div>
+		
+	</div>
+</div>
+
+
+
+<div id="CSS_section">
+	<div id="CSS_section_content">
+
+		<div class="Introduction_card">
+			<img src="Images/icon1.png" class="tecnologies_img">
+		</div>
+
+		<div class="Introduction_card">
+			<h1 class="tecnologies_title" style="border-left: 15px solid #006eba;">Padões para ler o código</h1>
+		</div>
+
+		<div class="images_example_left">
+			<img src="images/css.png" class="images_example">
+		</div>
+
+		<div class="div_introduction_text">
+			<h3>Semelhante ao HTML, nos documentos CSS foi usado também um estilo de arvore de indentação para organizar melhor o codigo, sendo que, o elemento que estiver mais a esquerda são elementos pai, e os que estão mais a direita são elementos filhos, caso estejam no mesmo nivel de identação, ou seja, nem a direita ou esquerda, quer dizer que são elementos do mesmo nivel na arvore de identação.</h3>
+		</div>
+
+		<br>
+
+		<div class="images_example_left">
+			<img src="images/css2.png" class="images_example">
+		</div>
+
+		<div class="div_introduction_text">
+			<h3>Os documentos estão divididos pelas suas respectivas seções, facilitando assim encontar elementos mais especificos e a navegação entre os documentos.</h3>
+		</div>
+		
+	</div>
+</div>
+
+<div id="CSS_section">
+	<div id="CSS_section_content">
+
+		<div class="Introduction_card">
+			<img src="Images/icon1.png" class="tecnologies_img">
+		</div>
+
+		<div class="Introduction_card">
+			<h1 class="tecnologies_title" style="border-left: 15px solid yellow;">Padões para ler o código</h1>
+		</div>
+
+		<div class="images_example_left">
+			<img src="images/js.png" class="images_example">
+		</div>
+
+		<div class="div_introduction_text">
+			<h3>Os documentos estão divididos pelas suas respectivas seções e funções, facilitando assim encontar elementos mais especificos e a navegação entre os documentos.</h3>
+		</div>
+
+		<br>
+
+		<div class="images_example_left">
+			<img src="images/js2.png" class="images_example">
+		</div>
+
+		<div class="div_introduction_text">
+			<h3>Assim como os outros arquivos, os scripts também seguem o padrão de arvore da identação, e como todas as funções são muito simples, muito provavelmente não é necessaria uma explicação muito a fundo sobre cada função.</h3>
+		</div>
+		
+	</div>
+</div>
+
+</body>
+</html>

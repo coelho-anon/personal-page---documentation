@@ -1,0 +1,128 @@
+
+
+#desktop_banner{
+	transform: scale(.3);
+	height: 100%;
+	position: absolute;
+	top: 17.7%;
+	left: 10%;
+	z-index: 4;
+	border-radius: 25px;
+	transition: .5s;
+}
+
+#desktop_banner2{
+	transform: scale(.3);
+	height: 100%;
+	position: absolute;
+	top: 10.7%;
+	left: 15%;
+	z-index: 3;
+	border-radius: 25px;
+	opacity: .8;
+	transition: .5s;
+}
+
+#desktop_banner3{
+	transform: scale(.3);
+	height: 100%;
+	position: absolute;
+	top: 3%;
+	left: 20%;
+	z-index: 2;
+	border-radius: 25px;
+	opacity: .6;
+	transition: .5s;
+}
+
+#desktop_banner:hover, #desktop_banner2:hover, #desktop_banner3:hover{
+	transition: .5s;
+	z-index: 10;
+	opacity: 1;
+	transform: scale(.5);
+	left: -5%;
+	top: 10%;
+}
+
+#desktop_banner:hover{
+	left: 5%;
+	top: 10%;
+}
+
+#desktop_banner2:hover{
+	left: 8%;
+	top: 10%;
+}
+
+#desktop_banner3:hover{
+	left: 10%;
+	top: 10%;
+}
+
+#mobile_banner{
+	transform: scale(.7);
+	position: absolute;
+	border-radius: 15px;
+	left: 7%;
+	top: 20%;
+	z-index: 4;
+	transition: .5s;
+}
+
+#mobile_banner2{
+	transform: scale(.7);
+	position: absolute;
+	border-radius: 15px;
+	left: 18.5%;
+	top: 10%;
+	z-index: 3;
+	transition: .5s;
+}
+
+#mobile_banner3{
+	transform: scale(.7);
+	position: absolute;
+	border-radius: 15px;
+	left: -3%;
+	top: 10%;
+	z-index: 3;
+	transition: .5s;
+}
+
+#mobile_banner:hover, #mobile_banner2:hover, #mobile_banner3:hover{
+	transform: scale(1);
+	left: 25%;
+	top: 10%;
+	z-index: 10;
+	opacity: 1;
+	transition: .5s;
+}
+
+#mobile_banner:hover{
+	left: 5%;
+}
+
+#mobile_banner2:hover{
+	left: 15%;
+}
+
+#mobile_banner3:hover{
+	left: 1%;
+}
+
+#banner_title{
+	font-size: 4em;
+	color: white;
+	text-align: right;
+	font-family: "Segoe UI",Arial,sans-serif;
+	margin-top: 0px;
+}
+
+#banner_description{
+	font-size: 2em;
+	color: white;
+	text-align: right;
+	font-family:Arial Black;
+	margin-top: 0px;
+	margin-right: 2%;
+}
